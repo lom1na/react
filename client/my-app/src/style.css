@@ -1,0 +1,144 @@
+.workers {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.workers input {
+    height: 30px;
+}
+
+.workers button {
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.workers button:hover {
+    cursor: pointer;
+}
+
+.employe {
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#btn-delete {
+    text-align: right;
+}
+
+#btn-delete:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.show-div {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+b {
+    font-size: 20px;
+}
+
+th,
+td {
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+.change:hover {
+    background: lightgreen;
+}
+
+.app-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-flex input,
+label {
+    padding: 5px 0;
+    width: 50%;
+    margin: 5px auto;
+}
+
+.div-span span {
+    margin: 10px;
+}
+
+.div-mysql-express-inputs {
+    max-width: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-mysql-express-inputs input {
+    padding: 5px;
+    margin: 5px
+}
+
+.span1 {
+    width: 250px;
+}
+
+.span2 {
+    width: 170px;
+}
+
+.span3 {
+    width: 200px;
+}
+
+.span4 {
+    width: 300px;
+}
+
+.span5 {
+    width: 150px;
+}
+
+.worker-span-name-div span {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 0;
+}
+
+.button-add-worker {
+    width: 98%;
+    padding: 7px 0;
+}
+
+.worker-span-name-div {
+    text-align: center;
+    margin: 30px;
+    padding: 2px 0;
+}
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5 {
+    text-align: left;
+}
+
+@media only screen and (max-width:1300px) {
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5 {
+        width: 100%;
+        text-align: left;
+    }
+    .worker-span-name-div span {
+        display: block;
+        padding: 5px 0;
+    }
+}
